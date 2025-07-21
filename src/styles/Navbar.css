@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #0D0C1D;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2E2C54;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #b1edff, #2d8ece);
+  
+  /* Compatibility for gradient text */
+  background-clip: text;               /* Standard syntax */
+  -webkit-background-clip: text;       /* WebKit (Chrome, Safari) */
+  
+  color: transparent;                  /* Fallback */
+  -webkit-text-fill-color: transparent; /* WebKit-specific text transparency */
+  
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #EDEDED;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7bafd1;
+}

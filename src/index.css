@@ -1,0 +1,43 @@
+:root {
+  --primary-accent: #5EF1F2;
+  --hover-accent: #32D3D3;
+  --text-color: #F0F4F8;
+  --background-color: #080C14;
+  --gradient-bg: linear-gradient(135deg, #080C14, #0A0F1F, #0D1328);
+  --font-main: 'Poppins', sans-serif;
+  --font-heading: 'Lilita One', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--gradient-bg);
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--primary-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hover-accent);
+}
+
+
+@keyframes glowText {
+  from {
+    text-shadow: 0 0 5px var(--primary-accent);
+  }
+  to {
+    text-shadow: 0 0 20px var(--hover-accent);
+  }
+}
