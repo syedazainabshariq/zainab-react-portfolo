@@ -76,7 +76,7 @@ function Home() {
 
   <div className="blob-container">
     <div className="blob"></div>
-    <img src="/assets/profile.png" alt="Profile image of Zainab" className="profile-img" />
+    <img src="./assets/profile.png" alt="Profile image of Zainab" className="profile-img" />
   </div>
 </section>
 
