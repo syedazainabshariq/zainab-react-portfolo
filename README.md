@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# zainab-portfolio
+# zainab-react-portfolio
 
 My updated and animated personal portfolio website — React-based, scroll-activated, dark-themed, and inspired by the "dream chaser" aesthetic.
 
@@ -48,6 +47,3 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)  
 - [Deployment](https://facebook.github.io/create-react-app/docs/deployment)  
 - [Troubleshooting `npm run build` errors](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# zainab-portfolio
->>>>>>> 9a3b628b4fa0643e912accc013b0ec17c60184cc
